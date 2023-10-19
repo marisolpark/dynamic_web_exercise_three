@@ -4,7 +4,7 @@ import styles from "./WeatherCard.module.css"
 import WeatherIcon from "./WeatherIcon";
 
 const WeatherCard = ({cityName, weatherType, currentWeather, highTemp, lowTemp, cloudiness, humidity, windSpeed})=> (
-    <div className={styles.weatherCardWrapper} style={{backgroundColor: `rgba(0,0,0,0.${cloudiness}`}}>
+    <div className={styles.weatherCardWrapper} style={{backgroundColor: `rgba(10,50,140,0.${cloudiness}`}}>
         <div className={styles.weatherCardImg}>
             <WeatherIcon weatherType={weatherType}/>
         </div>

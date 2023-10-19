@@ -28,3 +28,10 @@ header nav a:hover {
   color: blueviolet;
   text-decoration: line-through;
 }
+
+header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(144, 226, 246);
+  margin-bottom: 4%;
+}
